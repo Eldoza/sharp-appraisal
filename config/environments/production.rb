@@ -10,7 +10,7 @@ Rails.application.configure do
   config.assets.compile = false
 
   config.log_level = :debug
-  config.assets.digest = true
+  # config.assets.digest = true
 
   config.log_tags = [ :request_id ]
 
