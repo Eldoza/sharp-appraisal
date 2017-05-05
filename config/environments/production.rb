@@ -7,10 +7,10 @@ Rails.application.configure do
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
 
   config.assets.js_compressor = :uglifier
-  config.assets.compile = false
+  config.assets.compile = true
 
   config.log_level = :debug
-  # config.assets.digest = true
+  config.assets.digest = true
 
   config.log_tags = [ :request_id ]
 
